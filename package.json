@@ -1,0 +1,30 @@
+{
+  "name": "boardprojectnodejs",
+  "version": "1.0.0",
+  "description": "게시판 프로젝트 NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junsunghan/BoardProjectNodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junsunghan/BoardProjectNodeJS/issues"
+  },
+  "homepage": "https://github.com/junsunghan/BoardProjectNodeJS#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "mongodb": "^4.13.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.5.4"
+  }
+}
